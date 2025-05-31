@@ -98,7 +98,7 @@ Analisis frekuensi genre pada dataset manga menunjukkan bahwa beberapa genre mem
     9. Full Color
     10. Adaptation
 
-(Masukkan gambar atau paste plot di notebook/README sesuai kebutuhan)
+![image.png](https://raw.github.com/Revohndrsyh/System-Recomendation-Manga/main/Top%2010%20Genre.png)
 
 Insight:
 Genre Romance, Comedy, dan Drama mendominasi jumlah judul manga, menunjukkan bahwa genre-genre ini sangat diminati dan diproduksi lebih banyak. Hal ini juga bisa menjadi faktor penting dalam sistem rekomendasi, karena manga dengan genre populer memiliki peluang lebih tinggi untuk direkomendasikan kepada pembaca baru.
@@ -107,7 +107,7 @@ Genre Romance, Comedy, dan Drama mendominasi jumlah judul manga, menunjukkan bah
 **Distribusi Rating Manga**
 Distribusi rating manga pada dataset ini memperlihatkan sebagian besar manga memiliki rating tinggi di kisaran 7 hingga 9. Hanya sedikit manga yang memiliki rating sangat rendah.
 
-(Masukkan gambar atau paste plot di notebook/README sesuai kebutuhan)
+![image.png](https://raw.github.com/Revohndrsyh/System-Recomendation-Manga/main/Distribusi%20Rating.png)
 
 Insight:
 Mayoritas manga mendapatkan rating yang baik dari pembaca. Hal ini menunjukkan kurasi atau penilaian komunitas yang cukup ketat, sehingga sistem rekomendasi dapat fokus pada manga dengan rating menengah ke atas untuk meningkatkan kepuasan pengguna. Distribusi ini juga mengindikasikan bahwa sistem perlu memperhatikan threshold rating agar rekomendasi tidak selalu didominasi oleh manga dengan rating sangat tinggi saja.
@@ -161,6 +161,7 @@ Relevansi diukur dengan dua pendekatan:
 - Untuk Collaborative Filtering: manga dianggap relevan jika memiliki rating tinggi (misal, rating ≥ 8).
 
 ### Hasil Evaluasi
+![image.png](https://raw.github.com/Revohndrsyh/System-Recomendation-Manga/main/Hasil%20dan%20Perbandingan%20Model.png)
 - Content-Based Filtering:
 Precision@5 = 1.00
 Seluruh rekomendasi Top-5 manga dari model content-based berhasil tepat genre dengan manga target yang diuji. Artinya, model ini sangat efektif dalam memberikan rekomendasi berbasis konten.
