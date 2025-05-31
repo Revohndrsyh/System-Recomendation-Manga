@@ -50,10 +50,10 @@ Sistem rekomendasi juga menerapkan collaborative filtering berbasis matrix facto
         - Hasil komparasi precision@5 kedua model disajikan untuk menentukan kelebihan, kekurangan, dan potensi pengembangan sistem rekomendasi di masa depan.
 
 ## Data Understanding
-Dataset yang digunakan pada proyek ini merupakan kumpulan data manga berjudul [manga_details.csv](https://www.kaggle.com/datasets/hanswang06/mangadex-manga-dataset/data), yang berisi ribuan judul manga beserta atribut penting yang dapat dimanfaatkan untuk sistem rekomendasi.
+Dataset yang digunakan pada proyek ini merupakan kumpulan data manga berjudul [mangadex.orgManga/Manhua/Manhwa Dataset](https://www.kaggle.com/datasets/hanswang06/mangadex-manga-dataset/data), yang berisi ribuan judul manga beserta atribut penting yang dapat dimanfaatkan untuk sistem rekomendasi.
 
 ### Sumber Data
-- Dataset diambil dari sumber publik [mangadex.org Manga/Manhua/Manhwa Dataset](https://www.kaggle.com/datasets/hanswang06/mangadex-manga-dataset/data)
+- Dataset diambil dari sumber publik [Kaggle](https://www.kaggle.com/datasets/hanswang06/mangadex-manga-dataset/data)
 
 ### Informasi Dataset
 | Jenis         | Keterangan                                                                                   |  
