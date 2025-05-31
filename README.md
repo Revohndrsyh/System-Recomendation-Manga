@@ -1,4 +1,4 @@
-# System Recomandatin Manga - Revo Hendriansyah
+# System Recomendation Manga - Revo Hendriansyah
 
 ## Domain Proyek
 Proyek ini membangun sistem rekomendasi manga berbasis Content-Based Filtering dan Collaborative Filtering, yang dapat memberikan rekomendasi manga paling relevan kepada pengguna berdasarkan kemiripan isi maupun pola preferensi pengguna lain.
