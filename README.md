@@ -59,7 +59,7 @@ Dataset yang digunakan pada proyek ini merupakan kumpulan data manga berjudul [m
 | Jenis         | Keterangan                                                                                   |  
 |---------------|----------------------------------------------------------------------------------------------|
 | Title         | mangadex.orgManga/Manhua/Manhwa Dataset                                           | 
-| Source        | [mangadex.org Manga/Manhua/Manhwa Dataset](https://www.kaggle.com/datasets/hanswang06/mangadex-manga-dataset/data)                                                                              |
+| Source        | [Kaggle mangadex](https://www.kaggle.com/datasets/hanswang06/mangadex-manga-dataset/data)                                                                              |
 | Maintainer    | Hans Wang                                                                                     |
 | License       | the MangaDex Public API License                                                                                   | 
 | Visibility    | Publik                                                                                       |
