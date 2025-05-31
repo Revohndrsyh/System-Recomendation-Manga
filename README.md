@@ -86,6 +86,7 @@ Dataset terdiri dari beberapa fitur yaitu:
 
 ### Explolatory Data Analysis (EDA)
 **Top 10 Genre Manga**
+
 Analisis frekuensi genre pada dataset manga menunjukkan bahwa beberapa genre memiliki jumlah manga yang jauh lebih banyak dibandingkan yang lain. Sepuluh genre paling populer di dataset ini adalah:
     1. Romance
     2. Comedy
@@ -101,15 +102,18 @@ Analisis frekuensi genre pada dataset manga menunjukkan bahwa beberapa genre mem
 ![image.png](https://raw.github.com/Revohndrsyh/System-Recomendation-Manga/main/Top%2010%20Genre.png)
 
 Insight:
+
 Genre Romance, Comedy, dan Drama mendominasi jumlah judul manga, menunjukkan bahwa genre-genre ini sangat diminati dan diproduksi lebih banyak. Hal ini juga bisa menjadi faktor penting dalam sistem rekomendasi, karena manga dengan genre populer memiliki peluang lebih tinggi untuk direkomendasikan kepada pembaca baru.
 
 
 **Distribusi Rating Manga**
+
 Distribusi rating manga pada dataset ini memperlihatkan sebagian besar manga memiliki rating tinggi di kisaran 7 hingga 9. Hanya sedikit manga yang memiliki rating sangat rendah.
 
 ![image.png](https://raw.github.com/Revohndrsyh/System-Recomendation-Manga/main/Distribusi%20Rating.png)
 
 Insight:
+
 Mayoritas manga mendapatkan rating yang baik dari pembaca. Hal ini menunjukkan kurasi atau penilaian komunitas yang cukup ketat, sehingga sistem rekomendasi dapat fokus pada manga dengan rating menengah ke atas untuk meningkatkan kepuasan pengguna. Distribusi ini juga mengindikasikan bahwa sistem perlu memperhatikan threshold rating agar rekomendasi tidak selalu didominasi oleh manga dengan rating sangat tinggi saja.
 
 ## Data Preparation
