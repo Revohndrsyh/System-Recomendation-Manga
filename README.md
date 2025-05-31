@@ -194,3 +194,7 @@ Kedua model ini, jika digabungkan, dapat saling melengkapi sehingga sistem rekom
 
 ### Kesimpulan
 Evaluasi dengan Precision@5 membuktikan bahwa solusi yang dibangun telah efektif dalam menyelesaikan permasalahan bisnis, dengan model content-based filtering menunjukkan performa terbaik pada dataset ini. Pengembangan lebih lanjut dapat dilakukan dengan mengintegrasikan lebih banyak data interaksi pengguna asli, sehingga collaborative filtering juga dapat memberikan kontribusi yang lebih besar dalam sistem rekomendasi.
+
+## Refrensi
+- Hans Wang. (2025). Kaggle Dataset. https://www.kaggle.com/datasets/hanswang06/mangadex-manga-dataset/data
+- Cosine Similarity – GeekCulture. https://medium.com/geekculture/cosine-similarity-and-cosine-distance-48eed889a5c4
