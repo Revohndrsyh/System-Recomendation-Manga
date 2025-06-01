@@ -134,6 +134,18 @@ Tahap data preparation dilakukan untuk memastikan data siap digunakan dalam pros
 4. Pemeriksaan Akhir:
     - Jumlah data dan jumlah missing value per kolom diperiksa kembali setelah semua tahapan dilakukan, untuk memastikan bahwa data sudah bersih dan siap digunakan untuk analisis lebih lanjut.
 
+5. Transformasi Teks dengan TF-IDF dan Cosine Similarity
+Pada tahap persiapan data untuk model content-based filtering, dilakukan proses transformasi data teks menjadi bentuk numerik yang bisa diproses oleh algoritma machine learning. Proses ini meliputi dua langkah utama:
+
+    - Ekstraksi Fitur Teks dengan TF-IDF Vectorizer
+        - Seluruh informasi penting dari manga (judul, deskripsi, tags) telah digabungkan ke dalam kolom combined_features.
+        - Kemudian, dilakukan transformasi teks ke dalam bentuk vektor numerik menggunakan metode TF-IDF (Term Frequency-Inverse Document Frequency).
+        - TF-IDF memberikan bobot lebih tinggi pada kata-kata yang sering muncul di satu dokumen (manga), tetapi jarang muncul di dokumen lain, sehingga setiap manga dapat direpresentasikan secara unik di ruang vektor.
+
+    - Penghitungan Kemiripan Manga dengan Cosine Similarity
+        - Setelah data diubah menjadi matriks TF-IDF, dihitung cosine similarity antar setiap manga.
+        - Cosine similarity mengukur seberapa mirip dua vektor (manga) di ruang fitur. Manga yang memiliki nilai cosine similarity tinggi dianggap memiliki kemiripan konten yang kuat dan lebih relevan untuk direkomendasikan satu sama lain.
+
 ## Modeling
 Sistem rekomendasi manga pada proyek ini dibangun menggunakan dua pendekatan utama, yaitu Content-Based Filtering dan Collaborative Filtering. Kedua model ini diuji performanya untuk menemukan manga relevan berdasarkan genre, deskripsi, tag, serta pola preferensi pengguna.
 
