@@ -159,12 +159,20 @@ Cosine(A, B) = (A ⋅ B) / (||A|| * ||B||)
 - Kelebihan: Efisien, bisa merekomendasikan manga baru, tidak perlu data interaksi user
 - Kekurangan: Tidak mempertimbangkan pola unik user
 
+Hasil Pada system Recomendation Content Based
+
+![image.png](https://raw.github.com/Revohndrsyh/System-Recomendation-Manga/main/Top%205%20Content%20Based.png)
+
 **Collaborative Filtering**
 Collaborative filtering memanfaatkan pola preferensi pengguna untuk memberikan rekomendasi.
 Pada eksperimen ini, model collaborative filtering dibangun dengan simulasi matriks user-manga dan teknik matrix factorization (Truncated SVD).
 Rekomendasi untuk user didasarkan pada kemiripan pola rating/feedback antar pengguna.
 - Kelebihan: Mampu mempelajari preferensi komunitas, rekomendasi personal
 - Kekurangan: Membutuhkan data interaksi user asli
+
+Hasil Pada system Recomendation Collaborative Filtering
+
+![image.png](https://raw.github.com/Revohndrsyh/System-Recomendation-Manga/main/Top%205%20Collaborative%20Filtering.png)
 
 ## Evaluation
 Tahap evaluasi dilakukan untuk mengukur seberapa baik sistem rekomendasi yang telah dibangun dalam memberikan manga yang relevan kepada pengguna. Evaluasi ini penting untuk memastikan bahwa solusi yang dikembangkan benar-benar menjawab permasalahan bisnis yang telah didefinisikan sebelumnya.
